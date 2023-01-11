@@ -1,0 +1,833 @@
+html{
+   font-size: 62.5%;
+}
+
+*{
+    margin: 0rem;
+}
+
+.parent_container{
+    /* background-color: black; */
+    width: 136.5rem;
+    height: 65.5rem;
+    /* overflow: hidden; */
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    border-bottom: red solid .3rem;
+    width: 136.5rem;
+}
+
+.links{
+    /* background-color: red; */
+    margin-top: 1.5rem;
+    
+}
+
+.logo{
+    background-color: rgb(37, 17, 17);
+    display: flex;
+    border-radius: 4rem;
+}
+
+#A{
+    font-size: 5rem;
+    color: yellow;
+    /* background-color: gray; */
+}
+
+#P{
+    font-size: 5rem;
+    color: red;
+    /* background-color: blueviolet; */
+}
+
+#home{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 50rem;
+}
+
+#home:hover{
+    color: black;
+    background-color: white;
+}
+
+#about{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 10rem;
+}
+
+#about:hover{
+    color: black;
+    background-color: white;
+}
+
+#service{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 10rem;
+}
+
+#service:hover{
+    color: black;
+    background-color: white;
+}
+
+#contact{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 10rem;
+}
+
+#contact:hover{
+    color: black;
+    background-color: white;
+}
+
+/* main section starts from here */
+
+#snow{
+    width: 136.5rem;
+    height: 65.5rem;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    opacity: 0.4;
+}
+
+#beach{
+    width: 136.5rem;
+    height: 65.5rem;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    opacity: 0.4;
+}
+
+#river{
+    width: 136.5rem;
+    height: 65.5rem;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    opacity: 0.4;
+}
+
+#forest{
+    width: 136.5rem;
+    height: 65.5rem;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    opacity: 0.4;
+}
+
+#mountain{
+    width: 136.5rem;
+    height: 65.5rem;
+    z-index: -1;
+    position: absolute;
+    top: 0rem;
+    opacity: 0.4;
+}
+
+.main_container{
+    display: flex;
+}
+
+.first_name{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    position: absolute;
+}
+
+.last_name{
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 20rem;
+    /* top: 0rem; */
+    position: absolute;
+}
+
+#a{
+    color: yellow;
+    font-size: 10rem;
+}
+
+#b{
+    color: rgb(243, 150, 9);
+    font-size: 10rem;
+}
+
+#h{
+    color: rgb(12, 219, 40);
+    font-size: 10rem;
+}
+
+#i{
+    color: rgb(57, 195, 236);
+    font-size: 10rem;
+}
+
+#s{
+    color: rgb(135, 30, 255);
+    font-size: 10rem;
+}
+
+#h2{
+    color: rgb(4, 21, 252);
+    font-size: 10rem;
+}
+
+#e{
+    color: rgb(33, 39, 46);
+    font-size: 10rem;
+}
+
+#k{
+    color: rgb(248, 5, 57);
+    font-size: 10rem;
+}
+
+#p{
+    color: brown;
+    font-size: 10rem;
+}
+
+#o{
+    color: brown;
+    font-size: 10rem;
+}
+
+#my_first_img{
+    width: 35rem;
+    height: 40rem;
+    margin-left: 80rem;
+    border-radius: 28rem;
+    margin-top: 10rem;
+}
+
+.first_name{
+    
+}
+
+#web{
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(43, 2, 2);
+    margin-top: 30rem;
+    margin-left: 10rem;
+}
+
+#anim{
+    position: absolute;
+    font-size: 4rem;
+    color: rgb(43, 2, 2);
+    margin-top: 30rem;
+    margin-left: 10rem;
+}
+
+/* about page starts from here */
+
+#about_heading{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.about_brief{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2.6rem;
+    color: white;
+    background-color: black;
+    width: 136.8rem;
+    height: 40rem;
+    position: fixed;
+}
+
+/* trees */
+
+/* leafs */
+
+.triangles{
+    display: flex;
+}
+
+#tri_1{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tri_2{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_3{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_4{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_5{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_6{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_7{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_8{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#tri_9{
+    /* background-color: black; */
+    width: 0rem;
+    height: 0rem;
+    /* border-top: 0rem; */
+    border-left: 6rem solid  transparent;
+    border-right: 6rem solid  transparent;
+    border-bottom: 12rem solid white;
+    margin-top: 9rem;
+    margin-left: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* stems */
+
+.stems{
+    display: flex;
+}
+
+#stem_1{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 7rem;
+}
+
+#stem_2{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_3{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_4{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_5{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_6{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_7{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_8{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#stem_9{
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 13rem;
+}
+
+#b2{
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 15rem;
+}
+
+/* services page starts from here */
+
+.header_service{
+    background-color: black;
+    display: flex;
+    border-bottom: red solid .3rem;
+    width: 136.5rem;
+    /* position: fixed; */
+    top: 0rem;
+    overflow: hidden;
+}
+
+#service_heading{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+    text-transform: uppercase;
+}
+
+.logo_animator{
+    display: flex;
+}
+
+.web_logo{
+    background-color: brown;
+    width: 50rem;
+    height: 28rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    box-shadow: .5rem 1rem gray;
+}
+
+#inner_screen{
+    background-color: white;
+    width: 45rem;
+    height: 22rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+#monitor{
+    position: absolute;
+    margin-top: 25rem;
+    color: white;
+    font-weight: bold;
+}
+
+.animation{
+    background-color: dodgerblue;
+    width: 50rem;
+    height: 28rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    box-shadow: .5rem 1rem gray;
+}
+
+#inner_anim{
+    background-color: white;
+    width: 45rem;
+    height: 22rem;
+    margin-top: 2rem;
+    border-radius: 3rem;
+    justify-content: center;
+    text-align: center;
+}
+
+/* balls */
+
+#ball{
+    width: 3rem;
+    height: 3rem;
+    background-color: red;
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_2{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(185, 148, 24);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_3{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(5, 141, 46);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_4{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(230, 106, 4);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_5{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(15, 137, 250);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_6{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(14, 243, 224);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_7{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(222, 13, 241);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_8{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(157, 118, 248);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_9{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(76, 218, 71);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+#ball_10{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(226, 139, 151);
+    border-radius: 3rem;
+    position:absolute;
+}
+
+/* animations */
+
+#animation_heading{
+    font-size: 4rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.firsr_two_headings{
+    display: flex;
+}
+
+#heading_1st{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+#heading_2nd{
+    margin-left: 54rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.firsr_two_animations{
+    display: flex;
+}
+
+.mill_container{
+    /* border: .1rem solid red; */
+    width: 50rem;
+    height: 28rem;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+#mill_animation{
+    width: 50rem;
+    height: 28rem;
+    /* margin-top: 3rem; */
+    /* margin-left: 10rem; */
+    border-radius: 3rem;
+    /* position: absolute; */
+    transition: .4s ease;
+}
+
+#mill_animation:hover{
+    transform: scale(1.1);
+}
+
+.android_container{
+    /* border: .1rem solid red; */
+    width: 50rem;
+    height: 28rem;
+    margin-top: 3rem;
+    margin-left: 16rem;
+    border-radius: 3rem;
+    overflow: hidden;
+}
+
+#android_animation{
+    width: 50rem;
+    height: 28rem;
+    border-radius: 3rem;
+    transition: .4s ease;
+}
+
+#android_animation:hover{
+    transform: scale(1.1);
+}
+
+.test{
+    width: 136rem;
+    height: 100rem;
+    background-color: aqua;
+}
+
+/* contact page starts from here */
+
+#contact_heading{
+    text-align: center;
+    color: rgb(4, 50, 94);
+    font-size: 5rem;
+    margin-top: 8rem;
+}
+
+.info_container{
+    display: flex;
+    margin-top: 12rem;
+    /* background-color: lightseagreen; */
+}
+
+.addres_container{
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 20rem;
+}
+
+#address_icon{
+    width: 10rem;
+    height: 10rem;
+}
+
+.address_desc{
+    font-size: 2rem;
+    width: 20rem;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+}
+
+.address{
+    margin-left: 11rem;
+    width: 20rem;
+    /* background-color: black; */
+}
+
+.contact_container{
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 20rem;
+}
+
+#contact_icon{
+   width: 10rem;
+   height: 10rem;
+}
+
+.contact_desc{
+   font-size: 2rem;
+   width: 20rem;
+   text-align: center;
+   color: black;
+   margin-top: 1rem;
+}
+
+.contact{
+   margin-left: 11rem;
+   width: 20rem;
+   /* background-color: black; */
+}
+
+.email_container{
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   width: 20rem;
+}
+
+#email_icon{
+   width: 15rem;
+   height: 10rem;
+}
+
+.email_desc{
+   font-size: 2rem;
+   width: 20rem;
+   text-align: center;
+   color: black;
+   margin-top: 1rem;
+}
+
+.email{
+   margin-left: 11rem;
+   width: 20rem;
+   /* background-color: black; */
+}
+
+#my_resume{
+    width: 20rem;
+    height: 18rem;
+    margin-left: 11rem;
+}
+
+/* responsive web */
+
+@media(max-width:998px){
+    html{
+    font-size: 55%;
+    overflow: hidden;
+    }
+  }
+
+  @media(max-width:768px){
+    html{
+    font-size: 45%;
+    overflow: hidden;
+    }
+  }
+
+  @media(max-width:468px){
+    html{
+    font-size: 25%;
+    overflow: hidden;
+    }
+  }

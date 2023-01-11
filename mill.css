@@ -1,0 +1,275 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* width: 124rem; */
+    /* height: 49.3rem; */
+}
+
+#main_bg{
+    width: 124rem;
+    height: 63.9rem;
+}
+
+/* .container{
+    width: 134rem;
+    height: 49.3rem;
+} */
+
+/* clouds styling */
+
+#first_cloud{
+    width: 35rem;
+    height: 20rem;
+    /* position: absolute; */
+    margin-left: 1.2rem;
+}
+
+#second_cloud{
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    margin-left: 14rem;
+    margin-top: 1.2rem;
+}
+
+#third_cloud{
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    margin-left: 26rem;
+}
+
+#fourth_cloud{
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    margin-left: 38.5rem;
+}
+
+#fifth_cloud{
+    width: 35rem;
+    height: 20rem;
+    position: absolute;
+    margin-left: 48rem;
+    margin-top: -1.8rem;
+}
+
+#sixth_cloud{
+    width: 55rem;
+    height: 25rem;
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: -6.6rem;
+}
+
+#seventh_cloud{
+    width: 55rem;
+    height: 25rem;
+    position: absolute;
+    margin-left: 17rem;
+    margin-top: -3.6rem;
+}
+
+#eighth_cloud{
+    width: 55rem;
+    height: 25rem;
+    position: absolute;
+    margin-left: 36.1rem;
+    margin-top: -6.6rem;
+}
+
+#nineth_cloud{
+    width: 35rem;
+    height: 24rem;
+    position: absolute;
+    margin-left: -19.5rem;
+    margin-top: -5.6rem;
+}
+
+#tenth_cloud{
+    width: 25rem;
+    height: 15rem;
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: -5.4rem;
+}
+
+/* windmill styling */
+
+.blades{
+    /* width: 60rem; */
+    display: flex;
+    /* margin-top: 22rem; */
+    /* background-color: blue; */
+}
+
+.polls{
+    display: flex;
+    /* background-color: gray; */
+    /* position: fixed; */
+}
+
+
+#first_poll{
+    height: 20rem;
+    /* background-color: black; */
+    margin-top: -8rem;
+}
+
+#first_blade{
+    width: 20rem;
+    /* background-color: black; */
+    margin-left: 3.5rem;
+    /* margin-bottom: 49%; */
+    /* position: absolute; */
+    /* margin-top: 16.2%; */
+}
+
+#second_poll{
+    height: 20rem;
+    margin-top: -8rem;
+}
+
+#second_blade{
+    width: 20rem;
+    margin-left: 6.6rem;
+    /* margin-bottom: 49%; */
+    /* position: absolute; */
+    /* margin-top: 16.2%; */
+}
+
+#third_poll{
+    height: 20rem;
+    margin-top: -8rem;
+}
+
+#third_blade{
+    width: 20rem;
+    margin-left: 6.6rem;
+    /* margin-bottom: 49%; */
+    /* position: absolute; */
+    /* margin-top: 16.2%; */
+}
+
+#fourth_poll{
+    height: 20rem;
+    margin-top: -8rem;
+}
+
+#fourth_blade{
+    width: 20rem;
+    margin-left: 6.6rem;
+    /* margin-bottom: 49%; */
+    /* position: absolute; */
+    /* margin-top: 16.2%; */
+}
+
+#fifth_poll{
+    height: 20rem;
+    margin-top: -8rem;
+}
+
+#fifth_blade{
+    width: 20rem;
+    margin-left: 6.6rem;
+    /* margin-bottom: 49%; */
+    /* position: absolute; */
+    /* margin-top: 16.2%; */
+}
+
+#sixth_poll{
+    height: 20rem;
+    /* margin-top: 24%; */
+}
+
+
+/* rain styling */
+#rain{
+    position: absolute;
+    width: 124rem;
+    height: 64rem;
+    top: 0rem;
+    margin-left: 3rem;
+}
+
+/* sun styling */
+#sun{
+    position: absolute;
+    width: 20rem;
+    height: 21.9rem;
+    margin-left: 42.8rem;
+}
+
+#flowers{
+    /* position: absolute; */
+    width: 134rem;
+    height: 19rem;
+    margin-top: -6.7rem;
+    /* margin-left: -90%; */
+}
+
+/* bird styling */
+
+#bird{
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    margin-left: -58rem;
+
+}
+
+#second_bird{
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    margin-left: -57rem;
+}
+
+#third_bird{
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    margin-left: -56rem;
+}
+
+#fourth_bird{
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    margin-left: -54rem;
+}
+
+#greeting{
+    text-align: center;
+    margin-top: -28.1rem;
+    margin-left: 41.4rem;
+    position: absolute;
+    font-size: 7rem;
+    color: white;
+}
+
+/* responsive */
+
+@media(max-width:998px){
+    html{
+    font-size: 55%;
+    }
+  }
+
+  @media(max-width:768px){
+    html{
+    font-size: 45%;
+    }
+  }
+
+  @media(max-width:468px){
+    html{
+    font-size: 25%;
+    }
+  }

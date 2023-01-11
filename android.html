@@ -1,0 +1,344 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo</title>
+</head>
+
+<style>
+    html {
+        font-size: 62.5%;
+    }
+
+    * {
+        margin: 0rem;
+    }
+
+    body{
+        overflow: hidden;
+    }
+
+    .container{
+        width: 136rem;
+        height: 65.5rem;
+        top: 0rem;
+    }
+
+    #left_antena {
+        width: 1rem;
+        height: 8rem;
+        background-color: greenyellow;
+        margin-top: .3rem;
+        margin-left: 58.3rem;
+        position: absolute;
+        box-shadow: .2rem .2rem .2rem #000000;
+    }
+
+    #right_antena {
+        width: 1rem;
+        height: 8rem;
+        background-color: greenyellow;
+        margin-top: .3rem;
+        margin-left: 74.4rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+        position: absolute;
+    }
+
+    .middle_body{
+        display: flex;
+    }
+
+    #head {
+        width: 35rem;
+        height: 45rem;
+        background-color: greenyellow;
+        justify-content: center;
+        border-radius: 30rem 30rem 6rem 6rem;
+        margin-left: 49.5rem;
+        margin-top: 6.3rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+    }
+
+    #neck {
+        position: absolute;
+        width: 35rem;
+        height: 1rem;
+        background-color: white;
+        /* margin-left: 49.5rem; */
+        margin-top: 15.8rem;
+    }
+
+    #left_eye {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: white;
+        margin-left: 6.5rem;
+        margin-top: 9rem;
+        border-radius: 2rem;
+
+    }
+
+    #right_eye {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: white;
+        margin-left: 25rem;
+        margin-top: 9rem;
+        border-radius: 2rem;
+    }
+
+    #left_arm {
+        position: absolute;
+        width: 7rem;
+        height: 20rem;
+        background-color: greenyellow;
+        margin-left: 42rem;
+        margin-top: 24.3rem;
+        border-radius: 18rem 18rem 18rem 18rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+    }
+
+    #right_arm {
+        position: absolute;
+        width: 7rem;
+        height: 20rem;
+        background-color: greenyellow;
+        margin-left: 85rem;
+        margin-top: 24.3rem;
+        border-radius: 18rem 18rem 18rem 18rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+    }
+
+    .lower_body{
+        display: flex;
+    }
+
+    #left_leg {
+        margin-left: 57rem;
+        width: 7rem;
+        height: 12rem;
+        background-color: greenyellow;
+        border-radius: 0rem 0rem 12rem 12rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+    }
+
+    #right_leg {
+        position: absolute;
+        margin-left: 70rem;
+        /* margin-top: -3.6rem; */
+        width: 7rem;
+        height: 12rem;
+        background-color: greenyellow;
+        border-radius: 0rem 0rem 12rem 12rem;
+        box-shadow: .2rem .2rem .4rem #000000;
+    }
+
+    #name {
+        position: absolute;
+        margin-left: 13rem;
+        margin-top: 19rem;
+        font-size: 7rem;
+        color: white;
+        border: .3rem solid white;
+        border-radius: 30rem;
+        background-color: red;
+        width: 8rem;
+        height: 8rem;
+        text-align: center;
+    }
+
+    .burn {
+        width: 2rem;
+        height: 2rem;
+        background-color: red;
+        border-radius: 3rem;
+        margin: .2rem;
+    }
+
+    #background{
+        top: 0rem;
+        width: 136rem;
+        height: 65.5rem;
+        z-index: -1;
+        position: absolute;
+    }
+
+
+    /* responsive mobile and tablet */
+
+    @media(max-width:998px) {
+        html {
+            font-size: 55%;
+        }
+    }
+
+    @media(max-width:768px) {
+        html {
+            font-size: 45%;
+        }
+    }
+
+    @media(max-width:468px) {
+        html {
+            font-size: 25%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        
+
+    <img id="background" src="binary.jpg" alt="">
+
+    <a style="text-decoration: none; font-size: 2rem; color: white; margin: 2rem;" href="service.html">BACK</a>
+    
+        <div id="left_antena"></div>
+        <div id="right_antena"></div>
+
+        <div class="middle_body">
+
+            <div id="left_arm"></div>
+
+            <div id="head">
+
+                <div id="left_eye">
+                    <div class="burn"></div>
+                </div>
+
+                <div id="right_eye">
+                    <div class="burn"></div>
+                </div>
+
+                <div id="neck"></div>
+
+                <div id="name">A</div>
+
+            </div>
+
+            <div id="right_arm"></div>
+
+        </div>
+
+        <div class="lower_body">
+
+            <div id="left_leg"></div>
+            
+            <div id="right_leg"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script>
+        gsap.from('#head', {
+            opacity: 0,
+            duration: 2,
+            // ease:'linear'
+        });
+
+        gsap.from('#left_arm', {
+            delay: '2',
+            duration: 1,
+            x: '-800',
+            rotation: '150'
+        })
+
+        gsap.from('#right_arm', {
+            delay: '2',
+            duration: 1,
+            x: '800',
+            rotation: '-150'
+        })
+
+        gsap.from('#left_leg', {
+            delay: '3',
+            duration: 1,
+            y: '1000'
+        })
+
+        gsap.from('#right_leg', {
+            delay: '3',
+            duration: 1,
+            y: '1000'
+        })
+
+        gsap.from('#left_antena', {
+
+            duration: 1,
+            y: '-200',
+            delay: '4',
+        // },
+
+            // {
+                // delay: '4',
+                // x: '10',
+                // y: '5'
+            })
+
+        gsap.from('#right_antena', {
+
+            duration: 1,
+            y: '-200',
+            delay: '4',
+        // },
+
+            // {
+                // delay: '4',
+                // x: '20',
+                // y: '5'
+            })
+
+        gsap.to('#left_antena', {
+            rotate: -30,
+            delay: '5'
+        })
+
+        gsap.to('#right_antena', {
+            rotation: '30',
+            delay: '5'
+        })
+
+        gsap.from('#neck', {
+            opacity: '0',
+            delay: '5',
+        })
+
+        gsap.from('#left_eye', {
+            opacity: '0',
+            delay: '6'
+        })
+
+        gsap.from('#right_eye', {
+            opacity: '0',
+            delay: '6'
+        })
+
+        gsap.from('#name', {
+            opacity: '0',
+            scale: '3',
+            delay: '7'
+        })
+
+        gsap.to('.burn', {
+            scale: '4',
+            delay: 8,
+            duration: 1
+        })
+
+        gsap.to('.burn', {
+            scale: '1',
+            delay: 9,
+            duration: 1
+        })
+
+    </script>
+</body>
+
+</html>
